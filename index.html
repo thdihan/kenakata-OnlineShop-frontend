@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kenakata</title>
+
+    <!-- --font-awesome-- -->
+    <script src="https://kit.fontawesome.com/057de2a31d.js" crossorigin="anonymous"></script>
+    <!-- --Bootstrap-css-- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- --Custom-css-- -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- --Navbar-Start-- -->
+    <nav class="navbar navbar-expand-lg bg-light py-2 fixed-top">
+        <div class="container ">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <span class="text-uppercase fw-bold fs-1 text-primary">Kenakata</span>
+            </a>
+
+            <div class="order-lg-2 nav-btn">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+
+                </button>
+            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse order-lg-1 d-lg-flex justify-content-center"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#collection">Collection</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#offers">Specials</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#about">About</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark border-0" href="#populer">Populer</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- --Navbar-End-- -->
+
+    <!-- --Header-Start-- -->
+    <header id="header" class="vh-100">
+        <div class="container h-100 d-flex align-items-center justify-content-start">
+            <div class="text-start">
+                <h3 class="text-capitalize ">Best Collection</h3>
+                <h2 class="text-uppercase py-2 fw-bold">New Arrival</h2>
+                <a href="" class=" shop-now btn mt-3 text-uppercase">Shop Now</a>
+            </div>
+        </div>
+    </header>
+    <!-- --Header-End-- -->
+
+    <!-- --Collection-Start-- -->
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New Collection</h2>
+            </div>
+
+            <div class="row">
+                <div class=" d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" data-filter="*" class="btn m-2 text-dark active-filter-btn">All</button>
+                    <button type="button" data-filter=".best" class="btn m-2 text-dark">Best Seller</button>
+                    <button type="button" data-filter=".featured" class="btn m-2 text-dark">Featured</button>
+                    <button type="button" data-filter=".new" class="btn m-2 text-dark">New Arrival</button>
+
+                </div>
+            </div>
+
+
+            <div class="collection-list mt-4 row gx-3  gy-3 ">
+                <div class="col-md-6 col-lg-4 best featured">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/black-tshirt.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Cloths</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Black T-shirt with special Design.</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">499 TK.</h2>
+                                <a href="" class="btn fw-bold">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 best featured new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/school-bag.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Bags</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Light Weight School Bag</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">849 TK.</h2>
+                                <a href="" class="btn fw-bold">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 new featured">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/formalshirt.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Cloths</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Full Sleve Formal Shirt</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">499 TK.</h2>
+                                <a href="" class="btn fw-bold">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/watch.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Electronics</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Mens Fashion Watch</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">1499 TK.</h2>
+                                <a href="" class="btn fw-bold">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 new best">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/shoe.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Shoe</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Mens Black Keds</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">1099 TK.</h2>
+                                <a href="" class="btn fw-bold">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/flower.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Decoration</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Artificial Flowers for Office, Home
+                                Decoration</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">279 TK.</h2>
+                                <a href="" class="btn fw-bold">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- --Special Product-End-- -->
+
+    <!-- --Offer-Start-- -->
+    <section id="offers" class="py-5">
+        <div class="container">
+            <div
+                class="row d-flex align-content-center justify-content-center text-center justify-content-lg-start text-lg-start">
+                <div class="offers-content">
+                    <span class="">Discount Up to 40%</span>
+                    <h2 class="mt-2 mb-4">Grand Sale Offer!</h2>
+                    <a href="" class="btn offer-btn">Explore More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- --Offer-End-- -->
+
+
+
+
+
+
+
+    <!-- --Populer-Start-- -->
+
+    <section id="populer" class="py-5">
+        <div class="container">
+            <div class="title text-center pt-3 pb-5">
+                <h2 class="position-relative d-inline block ms-4">Populer Of This Year</h2>
+            </div>
+
+            <div class="row gx-3 gy-3">
+                <div class="col-md-4 col-lg-3 best featured">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/black-tshirt.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Cloths</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Black T-shirt with special Design.</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h4 class="price-tag text-primary fw-bold m-0">499 TK.</h4>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 best featured new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/school-bag.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Bags</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Light Weight School Bag</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">849 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 new featured">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/formalshirt.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Cloths</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Full Sleve Formal Shirt</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">499 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/watch.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Electronics</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Mens Fashion Watch</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">1499 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 new best">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/shoe.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Shoe</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Mens Black Keds</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">1099 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/flower.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Decoration</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Artificial Flowers for Office, Home
+                                Decoration</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">279 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/ladisbag.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Bags</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Ladis Bags</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">755 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/jacket.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Cloths</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Winter Jacket for Men</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">1089 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/chips.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Foods</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Lays Chips - Original</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">50 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/books.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Books</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Book: How to Design Your Books</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">200 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/perfume.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Cosmatics</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Perfume for woman</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">255 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 best new">
+                    <div class="card border-muted p-4">
+                        <div class="collection-img  w-100 d-flex justify-content-center align-items-center">
+                            <img src="images/product/macbook.png" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="text-start">
+                            <p class="category text-muted mb-0"><small>Electronics</small></p>
+                            <p class="text-capitalize my-1 product-tile fw-bold">Macbook Air M1</p>
+                            <div class="rating mt-0">
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                                <span class="text-muted"><i class="fas fa-star star"></i></span>
+                            </div>
+                            <div class="price-buy d-flex justify-content-between align-items-center mt-3 h-25">
+                                <h2 class="price-tag text-primary fw-bold m-0">89,999 TK.</h2>
+                                <a href="" class="populer-cart btn fw-bold"><i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- --Populer-End-- -->
+
+
+    <!-- --About-Us-Start-- -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class="">
+                        <h2 class="position-relative d-inline-block">About Us</h2>
+                    </div>
+
+                    <p class="mt-5 lead text-muted">Kenakata is a newly growing online shop based on dhaka city.</p>
+                    <p>In this shop you will get different product based on your own choice in a great discount. We have
+                        some festivals on different time of the year. To get updates about our festivals you can
+                        subscribe to our newsletter. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        consequuntur, aliquid dolor nihil quos amet nostrum saepe vel magnam iure!</p>
+                    <a href="" class="btn bg-primary text-white fw-bold mt-5">Visit Shop</a>
+                </div>
+
+                <div class="col-lg-6 order-lg-0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67311.28499996691!2d90.37329945751193!3d23.777816487608156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1658929979051!5m2!1sen!2sbd"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --About-Us-End-- -->
+
+    <!-- --Newsletter-Start-- -->
+    <section id="newsletter" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="title text-center pt-3 pb-5">
+                    <h2 class="position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                </div>
+
+                <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem
+                    officia accusantium maiores quisquam dolorum?</p>
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Enter Your Email ...">
+                    <button class="btn btn-primary rounded-pill rounded-start" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --Newsletter-End-- -->
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a class="text-uppercase text-decoration-none brand text-white" href="index.html">Kenakata</a>
+                    <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum
+                        mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Collection
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Blogs
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            Board Bazar, Gazipur.
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            kenakata.support@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            +9786 6776 236
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- --Jquery-- -->
+    <script src="js/jquery.js"></script>
+    <!-- Isotop Js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- --Bootstrap-Js-- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- --Custom-Js-- -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
