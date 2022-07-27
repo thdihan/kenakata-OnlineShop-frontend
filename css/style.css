@@ -9,6 +9,9 @@
     --light-red: #ff8a86;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
 
 body {
     font-family: var(--sm-font);
