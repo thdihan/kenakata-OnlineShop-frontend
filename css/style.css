@@ -5,6 +5,8 @@
     --green: #3BB77E;
     --black: #253D4E;
     --light-green: #C3E7D5;
+    --red: var(--bs-danger);
+    --light-red: #ff8a86;
 }
 
 
@@ -24,18 +26,18 @@ section {
 }
 
 .btn:not(.nav-btn button):hover {
-    background-color: var(--green);
+    background-color: var(--red);
     color: #fff;
-    border-color: var(--green);
+    border-color: var(--red);
 }
 
 /* --Buttons-- */
 .bg-primary {
-    background-color: var(--green) !important;
+    background-color: var(--red) !important;
 }
 
 .text-primary {
-    color: var(--green) !important;
+    color: var(--red) !important;
 }
 
 /* --Navbar-- */
@@ -57,7 +59,7 @@ section {
 }
 
 .nav-link:hover {
-    color: var(--green) !important;
+    color: var(--red) !important;
 }
 
 .nav-link {
@@ -75,7 +77,7 @@ section {
 
 
 #header {
-    background: url(../images/cart.png) right no-repeat, var(--light-green);
+    background: url(../images/cart-red.png) right no-repeat, var(--light-red);
     background-size: 60rem;
     margin-top: 85px;
     font-family: var(--sm-font);
@@ -91,10 +93,10 @@ section {
 }
 
 .shop-now {
-    background-color: var(--green) !important;
+    background-color: var(--red) !important;
     font-weight: bold;
     color: #fff !important;
-    border: 1px solid var(--green) !important;
+    border: 1px solid var(--red) !important;
 
 }
 
@@ -111,7 +113,7 @@ section {
     content: "";
     width: 40px;
     height: 5px;
-    background-color: var(--green);
+    background-color: var(--red);
     left: 43%;
     top: 56px;
 }
@@ -123,10 +125,10 @@ section {
 }
 
 .active-filter-btn {
-    background-color: var(--green) !important;
+    background-color: var(--red) !important;
     color: #fff !important;
     padding: 10px 28px;
-    border: 1px solid var(--green) !important;
+    border: 1px solid var(--red) !important;
 }
 
 .filter-button-group .btn:hover {
@@ -230,9 +232,9 @@ section {
 }
 
 #newsletter .btn {
-    background-color: var(--green);
+    background-color: var(--red);
     color: #fff;
-    border-color: var(--green);
+    border-color: var(--red);
 }
 
 #newsletter .btn:hover {
